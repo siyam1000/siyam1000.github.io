@@ -34,7 +34,7 @@ header {
     gap: 50px;
     padding: 20px;
     position: absolute;
-    left: 50%;
+    left: 55%;
     transform: translateX(-50%);
 }
 
@@ -94,6 +94,11 @@ a {
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
 
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+}
+
 .product-card img {
     width: 100%;
     height: auto;
@@ -102,4 +107,40 @@ a {
 
 .product-card h3 {
     margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        flex-direction: flex;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: auto;
+        font-size: 20px;
+        margin: 10px 1px;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        gap: 12px;
+        padding: 0.01px 1px;
+        position: absolute;
+        left: 59%;
+    }
+
+    .cart-btn {
+        margin: 0px 0px;
+        font-size: 14px;
+    }
+
+    .product-card {
+        max-width: 90%;
+    }
 }
