@@ -132,12 +132,17 @@ a {
         gap: 12px;
         padding: 0.01px 1px;
         position: absolute;
-        left: 59%;
+        left: 61%;
     }
 
     .cart-btn {
-        margin: 0px 0px;
-        font-size: 14px;
+        margin: 0px 5px;
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .cart-btn:hover {
+        font-size: 13px;
     }
 
     .product-card {
