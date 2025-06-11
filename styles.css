@@ -130,9 +130,13 @@ a {
     .nav-links {
         flex-direction: row;
         gap: 12px;
-        padding: 0.01px 1px;
+        padding: 0.001px 1px;
         position: absolute;
         left: 61%;
+    }
+
+    .nav-links li a {
+        font-size: 12px;
     }
 
     .cart-btn {
