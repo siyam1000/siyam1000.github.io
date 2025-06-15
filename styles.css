@@ -129,9 +129,11 @@ a {
 
     .nav-links {
         flex-direction: row;
-        gap: 12px;
-        padding: 0.001px 1px;
+        gap: 16px;
+        padding: 1px 1px;
+        margin: 20px 5px;
         position: absolute;
+        top: 0;
         left: 61%;
     }
 
